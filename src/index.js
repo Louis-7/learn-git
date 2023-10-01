@@ -12,7 +12,8 @@ class Math {
   }
 
   times (a, b) {
-    return a * b;
+    let result = a * b;
+    return result;
   }
 
   divide (a, b) {
