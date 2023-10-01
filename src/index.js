@@ -6,4 +6,8 @@ class Math {
   sum (a, b) {
     return a + b;
   }
+
+  divide (a, b) {
+    return a / b;
+  }
 }
