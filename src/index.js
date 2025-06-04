@@ -2,7 +2,7 @@ class Math {
   constructor() {
 
   }
-  
+
   sum (a, b) {
     return a + b;
   }
@@ -19,5 +19,9 @@ class Math {
   divide (a, b) {
     return a / b;
 
+  }
+
+  pow (a, b) {
+    return Math.pow(a, b);
   }
 }
